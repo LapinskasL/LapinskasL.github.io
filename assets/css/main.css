@@ -3232,69 +3232,74 @@ input, select, textarea {
 	}
 
 
-	/* custom edits */
+/* custom edits */
 
-	@media screen and (max-width: 5600px) {
-		#header #three {
-			display: none;
-		}
-
-		#footer #three {
-			display: block;
-		}
+@media screen and (max-width: 5600px) {
+	#header #three {
+		display: none;
 	}
 
+	#footer #three {
+		display: block;
+	}
+}
 
-	@media screen and (max-width: 1800px) {
-		#header #three {
-			display: none;
-		}
 
-		#footer #three {
-			display: block;
-		}
+@media screen and (max-width: 1800px) {
+	#header #three {
+		display: none;
 	}
-	
-	
-	@media screen and (max-width: 1280px) {
-		#header #three {
-			display: none;
-		}
 
-		#footer #three {
-			display: block;
-		}
+	#footer #three {
+		display: block;
+	}
+}
+
+
+@media screen and (max-width: 1280px) {
+	#header #three {
+		display: none;
+	}
+
+	#footer #three {
+		display: block;
+	}
+}
+
+
+@media screen and (max-width: 980px) {
+	#header #three {
+		display: block;
 	}
 	
-	
-	@media screen and (max-width: 980px) {
-		#header #three {
-			display: block;
-		}
-		
-		#footer #three {
-			display: block;
-		}
+	#footer #three {
+		display: block;
+	}
+}
+
+
+@media screen and (max-width: 736px) {
+	#header #three {
+		display: block;
 	}
 	
-	
-	@media screen and (max-width: 736px) {
-		#header #three {
-			display: block;
-		}
-		
-		#footer #three {
-			display: block;
-		}
+	#footer #three {
+		display: block;
+	}
+}
+
+
+@media screen and (max-width: 480px) {
+	#header #three {
+		display: block;
 	}
 	
-	
-	@media screen and (max-width: 480px) {
-		#header #three {
-			display: block;
-		}
-		
-		#footer #three {
-			display: block;
-		}	
-	}
+	#footer #three {
+		display: block;
+	}	
+}
+
+.viewCode  {
+	font-weight: bold;
+}
+
